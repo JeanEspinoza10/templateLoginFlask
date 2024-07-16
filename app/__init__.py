@@ -7,7 +7,7 @@ from config import environment
 
 app = Flask(__name__)
 
-#app.config.from_object(environment[getenv('ENVIRONMENT')])
+app.config.from_object(environment[getenv('ENVIRONMENT')])
 
 
 api = Api(
