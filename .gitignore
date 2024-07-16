@@ -33,4 +33,4 @@ env/
 
 __pycache__/
 prueba.py
-*.env
+.env
